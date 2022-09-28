@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  borer: black solid 0.5px;
   box-sizing: border-box;
   list-style: none;
 }
@@ -85,8 +84,7 @@ img {
 .box-section {
   height: 450px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  padding: 45px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -152,7 +150,7 @@ img {
 }
 
 .cta-section {
-  height: 350px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,4 +176,11 @@ img {
   
 }
 
-
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
