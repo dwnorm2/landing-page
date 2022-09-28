@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  boder: black solid 0.5px;
+  borer: black solid 0.5px;
   box-sizing: border-box;
   list-style: none;
 }
@@ -10,6 +10,8 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   }
 
 .header {
@@ -45,6 +47,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 300px;
+  gap: 20px;
 }
 
 .signup-box {
@@ -79,5 +82,100 @@ img {
   height: 300px;
 }
 
+.box-section {
+  height: 450px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: #3882F6 solid 3px;
+  margin: 0px;
+  border-radius: 20px;
+
+}
+
+.box-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150px;
+}
+
+.quote-section {
+  height: 350px;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.quote-box {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.white {
+  border: #f9faf8 solid 1px;
+}
+
+.cta-section {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  height: 150px;
+  width: 80%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  gap: 20px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
 
 
